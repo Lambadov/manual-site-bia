@@ -1,0 +1,12 @@
+<body>
+    <h1>Инструкции</h1>
+
+    {% for group in sections %}
+    <h2>{{ group.section }}</h2>
+    <ul>
+        {% for link in group.links %}
+        <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</body>
