@@ -3,6 +3,7 @@ from pathlib import Path
 import shutil
 from data import site_links
 from datetime import datetime
+import subprocess
 
 # Создание папки output
 output_dir = Path("output")
@@ -28,3 +29,11 @@ if images_dir.exists():
 
 
 print("Сайт успешно собран.")
+
+print("✅ Сайт сгенерирован. Загружаем на GitHub Pages...")
+
+try:
+    subprocess.run(["./deploy.sh"], check=True)
+    print("🚀 Обновление успешно опубликовано на GitHub Pages.")
+except subprocess.CalledProcessError:
+    print("❌ Ошибка при выполнении deploy.sh. Проверь скрипт вручную.")
