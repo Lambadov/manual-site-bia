@@ -2,6 +2,7 @@ from jinja2 import Environment, FileSystemLoader
 from pathlib import Path
 import shutil
 from data import site_links
+from datetime import datetime
 
 # Создание папки output
 output_dir = Path("output")
