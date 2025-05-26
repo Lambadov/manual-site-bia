@@ -11,7 +11,8 @@ site_links = [
         "links": [
             {"name": "WMS. Общие положения", "url": "wms_main.html"},
             {"name": "Этапы работы с товаром в WMS", "url": "wms_stages.html"},
-            {"name": "Личный кабинет партнера DSS", "url": "dss_partner_lk.html"}, 
+            {"name": "Личный кабинет партнера DSS", "url": "dss_partner_lk.html"},
+            {"name": "HelpDesk. Техподдержка Maya WMS", "url": "wms_helpdesk.html"} 
         ]
     },
     {
@@ -25,6 +26,12 @@ site_links = [
         "links": [
             {"name": "Кросс Докинг. Общие положения", "url": "cross_main.html"},
             {"name": "Трансляция остатков", "url": "cross_stock_translation.html"}
+        ]
+    },
+    {
+        "section": "FAQ",
+        "links": [
+            {"name":"Частозадаваемые вопросы","url": "faq.html"}
         ]
     }
 ]
