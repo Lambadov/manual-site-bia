@@ -25,13 +25,15 @@ site_links = [
         "section": "Кросс Докинг",
         "links": [
             {"name": "Кросс Докинг. Общие положения", "url": "cross_main.html"},
-            {"name": "Трансляция остатков", "url": "cross_stock_translation.html"}
+            {"name": "Трансляция остатков", "url": "cross_stock_translation.html"},
+            {"name": "1C", "url": "one_c_main.html"},
+            {"name": "Контакты технарей", "url": "tech_support.html"}
         ]
     },
     {
         "section": "FAQ",
         "links": [
-            {"name":"Частозадаваемые вопросы","url": "faq.html"}
+            {"name":"Часто задаваемые вопросы","url": "faq.html"}
         ]
     }
 ]
