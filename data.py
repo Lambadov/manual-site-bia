@@ -9,12 +9,9 @@ site_links = [
     {
         "section": "WMS",
         "links": [
-            {"name": "Общие положения", "url": "wms_main.html"},
+            {"name": "WMS. Общие положения", "url": "wms_main.html"},
             {"name": "Этапы работы с товаром в WMS", "url": "wms_stages.html"},
-            {"name": "Заведение и создание партнера", "url": "partner_create.html"},
-            {"name": "Личный кабинет партнера DSS", "url": "dss_partner_lk.html"},
-            {"name": "Создание товара и занесение остатков", "url": "wms_stock_create.html"},
-            {"name": "Работа с остатками. Перемещение / инвентаризация / учет", "url": "wms_stock_change.html"}    
+            {"name": "Личный кабинет партнера DSS", "url": "dss_partner_lk.html"}, 
         ]
     },
     {
